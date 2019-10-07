@@ -1,0 +1,39 @@
+{
+  "name": "telkomsel-api",
+  "version": "0.1.0",
+  "description": "Revoke magic link telkomsel login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "engines": {
+    "node": "10.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adipatiarya/telkomsel-api"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Adipati Arya",
+  "contributors": [
+    "Adipati Arya"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}
